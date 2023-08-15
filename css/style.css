@@ -1,0 +1,390 @@
+@import url(./reset.css);
+
+header {
+    display: flex;
+    background-image: url(/assets/Header\ Background.png);
+    height: 42rem;   
+    background-size:cover; 
+    flex-direction: column; 
+    color: #fff;         
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 9rem;
+}
+
+.title h1 {
+    text-align: center;    
+    font-family: "luckiest guy" , sans-serif;
+    font-weight: 400;
+    width: 19.5rem;
+    height: 7rem;
+    font-size: 3.5rem;
+    
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    margin-top: 3.3rem;
+}
+
+header p {    
+    width: 47.3rem;
+    text-align: center;
+    height: 4.12rem;        
+    font-family: "open-sans" , sans-serif;  
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.3rem;
+    gap: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "open-sans" , sans-serif;
+}
+
+#download {
+    width: 12.8rem;
+    height: 2.75rem;   
+    border-radius: 1.75rem;
+    background-color: #fff;
+    color: #000;
+    border: none;
+
+}
+
+#open {
+    height: 2.75rem;  
+    border-radius: 1.75rem;
+    width: 17.5rem;
+    color: #fff;
+    background-color: #23272A;
+    border: none;
+}
+
+#section-1 {
+    display: flex;
+    justify-content: center;
+}
+
+#section-1 img {
+    margin-top: 3.5rem;
+}
+
+.sec-title-1 {
+    width: 24.5rem;
+    min-height: 16.8rem;
+    font-size: 2rem;
+    margin-top: 3rem;
+    font-family: 'open sans' , sans-serif;
+    font-weight: 800;
+    margin-left: 4rem;
+}
+
+.sec-text-1 {
+    width: 21.75rem;
+    height: 5.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'open sans' , sans-serif;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+#section-2 {
+    display: flex;
+    justify-content: center;
+    height: 28rem;
+    background-color: #f6f6f6;
+    margin-top: 3.5rem;
+}
+
+.sec-text-2 {
+    width: 21.75rem;
+    height: 5.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'open sans' , sans-serif;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+.sec-title-2 {
+    width: 20.5rem;
+    min-height: 6.75rem;
+    font-size: 2rem;
+    margin-top: 4rem;
+    font-family: 'open sans' , sans-serif;
+    font-weight: 800;
+    margin-left: 4rem;
+}
+
+.details-2 {
+    margin-right: 3rem;
+}
+
+#section-3 {
+    display: flex;
+    justify-content: center;
+    height: 28rem;  
+    margin-top: 3.5rem;  
+}
+
+.sec-text-3 {
+    width: 21.75rem;
+    height: 5.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'open sans' , sans-serif;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+.sec-title-3 {
+    width: 22.5rem;
+    min-height: 6.75rem;
+    font-size: 2rem;
+    margin-top: 4rem;
+    font-family: 'open sans' , sans-serif;
+    font-weight: 800;
+    margin-left: 4rem;
+}
+
+#section-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 46.5rem ;
+    margin-top: 5rem;
+    background-color: #f6f6f6;
+}
+
+
+
+.sec-text-4 {
+    width: 50.125rem;
+    height: 2.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'open sans' , sans-serif;
+    text-align: center;  
+    margin-top: 1rem;  
+}
+
+.sec-title-4 {
+    width: 42rem;
+    min-height: 5rem;
+    font-size: 2rem;    
+    font-family: 'luckiest guy' , sans-serif;
+    font-weight: 400;  
+    text-align: center;  
+    margin: auto;
+}
+
+footer {    
+    height: 8.4rem;
+    background-color: #23272A;
+    display: flex;
+}
+
+.disc-img {
+    margin: auto;
+}
+
+@media screen and (min-width:414px) and (max-width:768px){
+   
+    
+
+    header {
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        height: 31rem;
+        
+    }
+
+    .title {
+        text-align: left;
+        width: 17.3rem;
+        height: 4rem;
+        margin-top: 4.3rem;
+        margin-left: 1.5rem;
+    }
+
+    .title h1 {
+        font-size: 2rem;
+        font-weight: 400;
+        text-align: start;
+        
+    }
+
+    .text {
+
+        display: flex;
+        margin-left: 1.5rem;
+        
+    }
+
+    .text p {
+        
+        text-align: start;
+    }
+
+    
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    #download {
+        width: 23.8rem;
+        margin-top: 2rem;
+    }
+
+    #open {
+        width: 23.8rem;
+    }
+
+    #section-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sec-title-1{                
+        width: 23.1rem;
+        min-height: 5.1rem;
+        margin-left: 1.5rem;
+        
+    }
+
+    .sec-title-1 h1{
+
+        font-size: 1.5rem;  
+        text-align: left;
+        width: 22rem;
+        height: 6.1rem;
+        font-weight: 800;
+    }
+
+    .sec-text-1 {        
+        margin-left: 1.5rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #section-2 {
+        display: flex;
+        flex-direction: column;
+        min-height: 35.7rem;
+    }
+
+    #section-2 img{
+        margin-top: 3rem;
+        
+    }
+    .details-2 {
+        order: 2;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sec-title-2 {
+        margin-left: 1.5rem;
+        min-height: 2rem;
+
+    }
+
+    .sec-title-2 h1{
+        margin-left: 0;
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    .sec-text-2 {
+        margin-left: 1.5rem;
+        min-width: 23rem;
+    }
+
+    #section-3 {
+        display: flex;
+        flex-direction: column;
+        height: 31rem;
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .sec-title-3 {
+        margin-left: 1.5rem;
+        min-height: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .sec-title-3 h1{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    .sec-text-3 {
+        margin-left: 1.5rem;
+        min-width: 23.3rem;
+    }
+
+    #section-4 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        min-height: 26.7rem;
+        
+    }
+
+    .details-4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sec-title-4 {
+        width: 23.5rem;
+        margin-left: 1.5rem;
+        min-height: 4rem;
+    }
+
+    .sec-title-4 h1 {
+        text-align: left;
+        font-size: 2rem;
+        margin-top: 2.5rem;
+    }
+
+    .sec-text-4 {
+        width: 23.5rem;
+        height: auto;
+        margin-left: 1.5rem;
+        margin-top: 2.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .sec-text-4 p{
+        width: 23.5rem;
+        text-align: left;
+    }
+
+    #section-4 img {
+        width: 23.5rem;
+        min-height: 15.75;
+    }
+
+    
+}
